@@ -12,7 +12,7 @@ int main()
   
 
         cout << "YES\n";
-        for (int i = l; i < r; i += 2)
+        for (ll i = l; i <= r; i += 2)
         {
             cout << i << " " << i + 1 << '\n';
         }
